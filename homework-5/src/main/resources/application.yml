@@ -1,0 +1,24 @@
+spring:
+  main:
+      allow-circular-references: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/eldar
+    driver-class-name: org.postgresql.Driver
+#    initialization-mode: always
+#    schema: schema.sql
+#    data: data.sql
+
+#spring.datasource.driver-class-name=org.postgresql.Driver
+#spring.jpa.database=postgresql
+#spring.jpa.database-platform=org.hibernate.dialect.PostgreSQL10Dialect
+
+  sql:
+    init:
+      mode: always
+      data-locations: data.sql
+      schema-locations: schema.sql
+#  h2:
+#    console:
+#      path: /h2-console
+#      settings:
+#        web-allow-others: true

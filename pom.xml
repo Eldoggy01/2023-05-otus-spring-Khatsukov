@@ -35,5 +35,10 @@
         <relativePath/>
     </parent>
 
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>homework-5</module>
+    </modules>
 
 </project>

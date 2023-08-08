@@ -35,10 +35,5 @@
         <relativePath/>
     </parent>
 
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>jdbc</module>
-    </modules>
 
 </project>
